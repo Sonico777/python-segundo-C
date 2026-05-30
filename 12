@@ -1,0 +1,16 @@
+#Lista de elementos llave:valor
+#Arreglos asociativos
+
+persona = {"nombre": "Ever",
+            "Edad":17,
+            "apellido": "Penado"}
+
+persona["apodo"] = "Forever.08"
+
+#print(persona.items())
+
+#for key, value in persona.items():
+
+print("direccion" in persona)
+ 
+ #   print(f"La llave {key} tiene el valor {value}")
