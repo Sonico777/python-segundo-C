@@ -1,0 +1,8 @@
+nombres = ["Luis", "Pedro,", "Daniel", "Fabri", "Carlos", "Esteban"]
+print(nombres)
+for i, nombre in enumerate(nombres):
+    #f Strings
+    print(f"Se a inscrito a la fiesta {nombre} en la lista con el indice {i}")
+
+print("Bienvenido a la fiesta", nombres[:3])
+print("Lo sentimos", nombres[3:])
