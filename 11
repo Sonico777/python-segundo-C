@@ -1,0 +1,12 @@
+#Tuplas son similares a las listas
+#No pueden modificarse
+#Se utilizan parentesis en lugar de []
+
+lista = ["Ever, Tony"]# seguidamente se le agrega informacion
+tupla = ["Ever, Tony"]
+
+videojuegos = []
+#nombre, Genero, Año
+videojuegos.append(("Super Mario 64", "Plataformas 3D", 1996))
+videojuegos.append(("Half-Life 2", "Aventura y FPS", 2004))
+print(videojuegos)
